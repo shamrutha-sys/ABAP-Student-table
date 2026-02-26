@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZZC_STUDENT_22EC10710'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZZC_STUDENT_22EC10710'
+  }
+}
+define service ZZUI_STUDENT_22EC107_O410 provider contracts odata_v4_ui {
+  expose ZZC_STUDENT_22EC10710;
+}

@@ -1,0 +1,20 @@
+projection implementation in class ZZBP_C_STUDENT_22EC10710 unique;
+strict ( 2 );
+extensible;
+use draft;
+use side effects;
+define behavior for ZZC_STUDENT_22EC10710 alias ZzcStudent22ec10710
+extensible
+use etag
+{
+  use create;
+  use update;
+  use delete;
+
+  use action Edit;
+  use action Activate;
+  use action Discard;
+  use action Resume;
+  use action Prepare;
+
+}
